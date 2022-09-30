@@ -9,10 +9,8 @@ body {
     background-color: white;
 }
 
-
 /* Parte del header */
 .header {
-    background: url(/img/header.jpg);
     background-size: cover;
     height: 500px;
     overflow: hidden;
@@ -20,12 +18,12 @@ body {
     /* Centrar horizontalmente el div del texto */
     display: flex;
     align-items: center;
-
-    filter: brightness(60%);
+    justify-content: center;
 }
+
 .textocentrado {
     /* Centrar verticalmente el div del texto */
-    margin: auto;
+    position: absolute;
 
     /* Estilos al título del encabezado */
     color: white;
