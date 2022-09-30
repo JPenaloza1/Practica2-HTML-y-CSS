@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+/* Parte del header */
+.header {
+    background: url(/img/header.jpg);
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    
+    /* Centrar horizontalmente el div del texto */
+    display: flex;
+    align-items: center;
+
+    filter: brightness(60%);
+}
+.textocentrado {
+    /* Centrar verticalmente el div del texto */
+    margin: auto;
+
+    /* Estilos al título del encabezado */
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+
+    /* Ancho máximo */
+    max-width: 780px;
+}
+
+hr {
+    margin-top: 9px;
+    height: 2px;
+    border-color: #e6e6e6;
+}
+
+/* Estilos de todo el contenido que no es el header */
+.cuerpo {
+    /* Centrar los elementos dentro del cuerpo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Bajar los 60px más lo de la imagen y el texto del perfil */
+    margin-top: 146px;
+
+    /* Centrar el texto del perfil */
+    text-align: center;
+}
+
+    /* Parte del perfil */
+
+.perfil {
+    /* Centrar y subir la imagen de perfil */
+    position: absolute;
+    top: 450px;
+
+    /* Tamaño y color del texto de perfil */
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.imagenPerfil {
+    /* Dar tamaño y volverlo circular */
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.textoPerfilBold {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textoPerfilItalica {
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+    /* Parte del contenido */
+.contenido {
+    max-width: 66.67%;
+    text-align: left;
+}
+
+.contenido h1 {
+    /* Configuracion del numero de la lista */
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+
+    /* Ancho máximo del numero de la lista */
+    max-width: 30px;
+    
+    /* Margen externo inferior */
+    margin-bottom: -75px;
+    margin-top: 4px;
+}
+
+.contenido h2 {
+    /* Configuraciones del titulo */
+    font-family: 'Roboto Slab', serif;  
+    color: rgb(51, 51, 51);  
+    font-size: 36px;
+
+    /* Relleno de la parte izquierda */
+    padding-left: 65px;
+    margin-bottom: 0px;
+}
+
+.contenido a {
+    color: #42b4d6;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 65px;
+}
+
+.contenido a:hover {
+    text-decoration: underline;
+}
+
+.contenido p {
+    font-size: 18px;
+    font-style: normal;
+    color: rgb(51, 51, 51);   
+    padding-left: 65px;
+    margin-top: 19px;
+}
+
+.imagenContenido {
+    margin-top: 2px;
+    max-width: 100%;
+    padding-bottom: 116px;
+}
