@@ -11,7 +11,7 @@ body {
 
 /* Parte del header */
 .header {
-    background-size: cover;
+    /* background-size: cover;} */
     height: 500px;
     overflow: hidden;
     
@@ -29,6 +29,7 @@ body {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
+    text-align: center;
 
     /* Ancho máximo */
     max-width: 780px;
@@ -131,8 +132,14 @@ hr {
     margin-top: 19px;
 }
 
+.img {
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+}
+
 .imagenContenido {
     margin-top: 2px;
-    max-width: 100%;
+    max-width: calc(100% - 65px); /*Este agarra el 100% del ancho de su div padre*/
     padding-bottom: 116px;
 }
